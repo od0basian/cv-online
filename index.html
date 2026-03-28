@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html language="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Site Web Personal</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://kit.fontawesome.com/13e997cd1c.js" crossorigin="anonymous"></script>
+	<script src="myscript.js"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="imagini/logo.png" class="logo" alt="logo">
+			<ul>
+				<li><a href="#header">Acasa</a></li>
+				<li><a href="#about">Despre mine</a></li>
+				<li><a href="#services">Pasiuni</a></li>
+				<li><a href="#portfolio">Abilități</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="header-text">
+			<p>Student la ETTI</p>
+			<h1>Bună,eu sunt <span>Ciprian</span></br> și am <span>21</span> de ani</h1>
+		</div>
+	</div>	
+</div>
+<!-------------------about------------------------------------>
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+			<img src="imagini/despre.jpg">
+			</div>		
+			<div class="about-col-2">
+				<h1 class="sub-title">Despre mine</h1>
+				<p>Numele meu este Munteanu Ciprian, sunt născut pe 7 octombrie a anului 2004 și locuiesc în comuna Românești din județul Botosani.În prezent sunt student în anul 3 la Facultatea de Electronica Telecomunicații și Tehnologia Informației.Am ales aceasta facultate dupa ce am absolvit liceul tehnologic "Octav Onicescu" din Botoșani și am reusit sa iau bacalaureatul cu media 9.51.Visul meu este  de a ajunge inginer deoarece este o meserie respectabilă si interesantă.</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('experiență')">Experiență</p>
+					<p class="tab-links" onclick="opentab('educație')">Educație</p>
+					<p class="tab-links" onclick="opentab('familie')">Familie</p>
+				</div>
+				<div class="tab-contents active-tab" id="experiență">
+					<ul>
+						<li><span>Practica din cadrul laboratorului Continental CLL Hardware</span><br>În cadrul laboratorului Continental CLL Hardware, am contribuit la dezvoltarea și testarea modulelor hardware. Activitatea mea a inclus proiectarea de PCB-uri în KiCad, simularea circuitelor în LTSpice pentru validarea performanțelor și gestionarea listelor de materiale (BOM) prin platforme industriale precum Mouser și Texas Instruments. Această experiență mi-a consolidat capacitatea de a transforma conceptele teoretice în soluții hardware funcționale și optimizate.</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="educație">
+					<ul>
+						<li><span>2015-2019</span><br>Școala Gimnazială Nr.1 Românești</li>
+						<li><span>2019-2023</span><br>Colegiul Economic "Octav Onicescu" Botoșani</li>
+						<li><span>2023-prezent</span><br>Facultatea de Electronica Telecomunicații și Tehnologia Informației</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="familie">
+					<ul>
+						<li><span>Mama</span><br>Munteanu Maria - 47 de ani</li>
+						<li><span>Tata</span><br>Munteanu Ștefan - 56 de ani</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!----------------------------------------Pasiuni services-------------------------------------------------------------------------------->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">Pasiuni</h1>
+		<div class="services-list">
+			<div>
+				<a href="masini/index2.html">
+				<i class="fa-solid fa-car"></i>
+				<h2>Mașinile</h2>
+				<p>Îmi plac mașinile.Mașina mea este un Opel Astra H din anul 2006, are 205.000 km in bord,tractiune pe față, se alimenteaza cu motorinăț, 102 cai putere și 6 viteze</p>
+				<h3>Vezi mai multe</h3></a>
+			</div>
+			<div>
+				<i class="fa-solid fa-futbol"></i>
+				<h2>Sportul</h2>
+				<p>Îmi place sportu, în special fotbalul, joc fotbal de când sunt mic și fac parte din echipa comunei.De asemenea am participat și la alte competitii sportive cum ar fi un cros de vara pe care l-am câștigat la vârsta de 14 ani</p>
+				<a href="#"></a>
+			</div>
+			<div>
+				<a href="animale/index3.html">
+				<i class="fa-solid fa-dog"></i>
+				<h2>Animalele</h2>
+				<p>Am un cățel de companie, numele lui e Rex și îl am de aproape 9 ani</p>
+				<h3>Vezi mai multe</h3></a>
+			</div>
+		</div> 
+	</div>
+</div>
+<!---------------------------------portofolio abilitati----------------------------------------> 
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">Abilități</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="imagini/abilitatea1.jpg" >
+				<div class="layer">
+					<h3>Atleticism</h3>
+					<p>După cum am spus și mai devreme practic fotbalul de cand sunt mic și nu numai, îmi place să alerg și să fac mișcare în general</p>
+					<a href="#"><i class="fa-solid fa-link-slash"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="imagini/abilitatea2.jpg" >
+				<div class="layer">
+					<h3>Lucrul în echipă</h3>
+					<p>Îmi place să lucrez cu oamenii din jurul meu indiferent de proiect sau de cerință deoarece este mult mai ușor să rezolvi probleme și e o activitate socială bună</p>
+					<a href="#"><i class="fa-solid fa-link-slash"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="imagini/abilitatea3.jpg" >
+				<div class="layer">
+					<h3>Creativitatea</h3>
+					<p>Sunt o persoană creativă de când mă știu, reușesc să-mi imaginez soluții la diferite de probleme și pot duce o treabă la capăt î tot felul de moduri</p>
+					<a href="#"><i class="fa-solid fa-link-slash"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="imagini/abilitatea4.jpg" >
+				<div class="layer">
+					<h3>Curiozitatea</h3>
+					<p>Sunt foarte curios indiferent de topic sau de știință, întotdeauna îmi doresc să știu mai mult legat de orice subiect pentru a fi mai cunoscător și a-mi deschide orizonturile</p>
+					<a href="#"><i class="fa-solid fa-link-slash"></i></a>
+			</div>
+		</div>
+<!-- -----------------------see more---------------------------- -->
+		<a href="#" class="btn">Vedeți mai multe</a>
+<!-- -----------------------see more---------------------------- -->
+	</div>
+</div>
+<!-- -----------------------Contact---------------------------- -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contactează-mă</h1>
+				<p><i class="fa-solid fa-envelope"></i> mnt.cipriann@gmail.com</p>
+				<p><i class="fa-solid fa-phone"></i> 0748381136</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/ciprian.munteanu.5205/"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://twitter.com/0d0basian"><i class="fa-brands fa-twitter"></i>/<i class="fa-brands fa-x-twitter"></i></a>
+					<a href="https://www.instagram.com/mt.cipriann/"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/munteanu-ciprian-a48976298/"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+<!-- -----------------------Download---------------------------- -->
+				<a href="imagini/CV.pdf" class="btn btn2" download>Download CV</a>
+<!-- -----------------------Download---------------------------- -->
+			</div>
+			<div class="contact-right">
+				<form>
+					<input type="text" name="Name" placeholder="Numele Tău" required>
+					<input type="email" name="email" placeholder="E-mailul Tău" required>
+					<textarea name="Message" rows="6" placeholder="Mesajul Tău"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+
+</body>
+</html>
